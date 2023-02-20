@@ -1,0 +1,29 @@
+.background{
+  /* background-color: #212529 !important; */
+  background: url(img/keys.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+body{
+  position: relative !important;
+}
+  .darkFont{
+    color:#212529;
+    text-shadow: 2px 2px 2px #FFFFFF;
+  }
+
+  .simple{
+    color: aliceblue !important;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+
+  .col-md-2{
+    padding-left: 100px !important;
+    padding-bottom: 50px !important;
+  }
+  
+
+  
+  
+  
