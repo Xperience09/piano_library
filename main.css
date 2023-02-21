@@ -4,6 +4,13 @@
   background-repeat: no-repeat !important;
   background-size:cover !important;
 }
+
+.background2{
+  background: url(img/keys_20.jpg) !important;
+  background-repeat: no-repeat !important;
+  background-size:cover !important;
+}
+
 body{
   position: relative !important;
 }
@@ -38,6 +45,19 @@ body{
   .sANDb{
     padding-left: 5px !important;
     padding-bottom: 50px !important;
+  }
+
+  .card {
+    margin: 30px;
+  }
+    
+  .btn-custom{
+    background-color: #212529 !important;
+    color:whitesmoke !important;
+  }
+  
+  .btn-black{
+    background-color: rgba(0, 0, 0, 0.1) !important;
   }
   
 
