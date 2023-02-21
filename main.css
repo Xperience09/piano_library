@@ -11,6 +11,10 @@ body{
     color:#212529;
     text-shadow: 2px 2px 2px #FFFFFF;
   }
+  .whiteFont{
+    color:#FFFFFF;
+    text-shadow: 2px 2px 2px #212529;
+  }
 
   .simple{
     color: aliceblue !important;
