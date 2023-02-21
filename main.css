@@ -22,6 +22,12 @@ body{
     padding-left: 100px !important;
     padding-bottom: 50px !important;
   }
+
+  .col-md-6{
+    padding-left: 50px !important;
+    padding-bottom: 50px !important;
+  }
+
   .imgHover:hover {
     opacity: 0.6 !important;
   }
