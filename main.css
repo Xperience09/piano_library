@@ -1,6 +1,6 @@
 .background,.modal{
   /* background-color: #212529 !important; */
-  background: url(img/keys.jpg) !important;
+  background: url(img/musical-notes.jpg) !important;
   background-repeat: no-repeat !important;
   background-size:cover !important;
 }
@@ -87,7 +87,7 @@ body{
     bottom: -70;
     left: 50%;
     transform: translateX(-50%);
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.8);
     padding: 10px;
     margin-top: -10px;
     
