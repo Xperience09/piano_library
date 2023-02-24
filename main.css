@@ -3,12 +3,14 @@
   background: url(img/musical-notes.jpg) !important;
   background-repeat: no-repeat !important;
   background-size:cover !important;
+  align-items: center;
 }
 
 .background2{
   background: url(img/keys_20.jpg) !important;
   background-repeat: no-repeat !important;
   background-size:cover !important;
+  align-items: center;
 }
 
 .bg-custom{
@@ -46,6 +48,7 @@ body{
 
   .imgHover:hover {
     opacity: 0.6 !important;
+    cursor: pointer;
   }
   .sANDb{
     padding-left: 5px !important;
