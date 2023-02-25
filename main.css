@@ -48,18 +48,10 @@ body{
   }
 
 
-  .imgHover{
-    /* animation-duration: 2s;
-    animation-iteration-count: infinite;
-    transform-origin: bottom; */
-  }
-
   .imgHover:hover {
     cursor: pointer;
     animation: shake 1s;
    animation-iteration-count: infinite;
-    /* animation-name: bounce;
-    animation-timing-function: ease; */
 }
 
 @keyframes shake {
@@ -81,7 +73,7 @@ body{
 
 
   /* .imgHover:hover {
-    /* opacity: 0.6 !important; */
+    opacity: 0.6 !important;
     cursor: pointer;
     animation:cubic-bezier(0.175, 0.885, 0.32, 1.275);
   } */
@@ -109,6 +101,7 @@ body{
   .image-text-container {
     position: relative;
     margin-top: 150px;
+    transition: transform .5s;
   }
   
   .image-text-container img {
@@ -117,6 +110,11 @@ body{
     height: auto;
     position: relative;
     z-index: 1;
+  }
+
+  .image-text-container:hover{
+    /* animation:cubic-bezier(0.175, 0.885, 0.32, 1.275); */
+    transform: scale(1.05);
   }
   
   .img-contents {
@@ -142,6 +140,13 @@ body{
     margin-top: 150px !important;
   }
   
+  .card{
+    transition: transform .5s;
+  }
+
+  .card:hover{
+    transform: scale(1.1);
+  }
   
 
 
