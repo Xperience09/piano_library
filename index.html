@@ -10,15 +10,19 @@
 </head>
 
 
-<body class="bg-custom">
-   
+<body class="background">
+
 <!-- Navbar -->
-<nav class="navbar navbar-header navbar-expand-sm navbar-dark background sticky-top">
+<nav class="navbar navbar-header navbar-expand-sm navbar-dark background sticky-top ">
     <div class="container-fluid">
     
-    
-      <div class="" id="mynavbar">
-        <ul class="navbar-nav me-auto">
+      <a href="#" class="navbar-brand"><img src="img/logo.png" width="80" height="80" class="d-inline-block align-top"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="collapsibleNavbar" >
+        <ul class="navbar-nav ms-auto">
           <li class="nav-item">
             <a class="nav-link active" href="index.html">Home</a>
           </li>
@@ -29,74 +33,72 @@
             <a class="nav-link" href="sheets.html">Sheets</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="library.html">Library</a>
+            <a class="nav-link" href="library.html">About</a>
           </li>
         </ul>
       </div>
+
     </div>
   </nav>
-  <!-- <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-    <div class="container-fluid">
-      <span class="navbar-text mx-auto" style="color:azure">Welcome to PianoLibrary.com</span>
+
+
+
+
+
+
+    <div class="row">
+        <!-- Carousel -->
+        <div class="col-md-1"></div>
+      <div class="col-md-10">
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                <!-- Indicators/dots -->
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                  <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                  <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                </div>
+                
+                <!-- The slideshow/carousel -->
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <a href="learn-piano.html">
+                    <img src="img/learn-piano.jpg" alt="Image not found" class="d-block" style="width:100%; height: 85%;">
+                    <div class="carousel-caption">
+                      <h3 class="darkFont">Start your Journey!</h3>
+                      <p class="darkFont">Learn piano from beginner level.</p>
+                    </div></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="sheets.html">
+                    <img src="img/sheet.jpg" alt="Image not found" class="d-block" style="width:100%; height: 85%;">
+                    <div class="carousel-caption">
+                      <h3 class="whiteFont">Piano Notes and Chords Sheet</h3>
+                      <p class="whiteFont">Wanna play something amazing? We got you!</p>
+                    </div> </a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="library.html">
+                    <img src="img/recordings.jpg" alt="New York" class="d-block" style="width:100%; height: 85%;">
+                    <div class="carousel-caption" style="align-items:center !important;">
+                      <h3 class="whiteFont">My Recording Library</h3>
+                      <p class="whiteFont">Watch and Listen to my Piano Recordings.</p>
+                    </div>  </a>
+                  </div>
+                </div>
+                
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </button>
+              </div>
+
     </div>
-  </nav> -->
-
-
-
-
-
-
-  <!-- Carousel -->
-<div id="demo" class="carousel slide" data-bs-ride="carousel">
-
-    <!-- Indicators/dots -->
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-    </div>
-    
-    <!-- The slideshow/carousel -->
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <a href="learn-piano.html">
-        <img src="img/learn-piano.jpg" alt="Image not found" class="d-block" style="width:100%; height: 80%;">
-        <div class="carousel-caption">
-          <h3 class="darkFont">Start your Journey!</h3>
-          <p class="darkFont">Learn piano from beginner level.</p>
-        </div></a>
-      </div>
-      <div class="carousel-item">
-        <a href="sheets.html">
-        <img src="img/sheet.jpg" alt="Image not found" class="d-block" style="width:100%; height: 80%;">
-        <div class="carousel-caption">
-          <h3 class="whiteFont">Piano Notes and Chords Sheet</h3>
-          <p class="whiteFont">Wanna play something amazing? We got you!</p>
-        </div> </a>
-      </div>
-      <div class="carousel-item">
-        <a href="library.html">
-        <img src="img/recordings.jpg" alt="New York" class="d-block" style="width:100%; height: 80%;">
-        <div class="carousel-caption" style="align-items:center !important;">
-          <h3 class="whiteFont">My Recording Library</h3>
-          <p class="whiteFont">Watch and Listen to my Piano Recordings.</p>
-        </div>  </a>
-      </div>
-    </div>
-    
-    <!-- Left and right controls/icons -->
-    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon"></span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-      <span class="carousel-control-next-icon"></span>
-    </button>
+    <div class="col-md-1"></div>
   </div>
-		
- 
-
-
-
 
 
 
@@ -110,10 +112,10 @@
     <div class="col-md-8" style="background-color: transparent;">
       <div class="image-text-container">
         <img src="img/pianoImgForIndex.jpg" alt="Image" class="img-fluid">
-        <div class="img-contents">
-        <h3 align="center">Material for Absolute Beginner</h3>
-        <p>Start learning about the piano, how to play it and how to read a music sheet.</p>
-        <a href="learn-piano.html" class="text-decoration-none"><p><small class="text-dark">Click to know more!</small></p></a>
+        <div class="img-contents" align="center">
+        <h3>Material for Absolute Beginner</h3>
+        <p >Start learning about the piano, how to play it and how to read a music sheet.</p>
+        <a href="learn-piano.html" class="text-decoration-none"> <img src="img/Learn more.png" height="100" width="100"></a>
         </div>
       </div>
     </div>
@@ -134,10 +136,10 @@
   <div class="col-md-8" style="background-color: transparent;">
     <div class="image-text-container">
       <img src="img/sheetForIndex.jpg" alt="Image" class="img-fluid">
-      <div class="img-contents">
-      <h3 align="center">Play your Favorite Songs.</h3>
+      <div class="img-contents" align="center">
+      <h3>Play your Favorite Songs.</h3>
       <p>Read a sheet music and play it in your piano. We got bunch of songs - classical, pops that you can play.</p>
-      <a href="sheets.html" class="text-decoration-none"><p><small class="text-dark">Click to Explore the sheet music gallery.</small></p></a>
+      <a href="sheets.html" class="text-decoration-none"> <img src="img/Learn more.png" height="100" width="100"></a>
       </div>
     </div>
   </div>
@@ -171,7 +173,7 @@
 
     <footer class="bg-dark text-center text-white">
     <!-- Grid container -->
-    <div class="container p-4 pb-0 index-footer">
+    <div class="container p-4 pb-0">
       <!-- Section: Form -->
       <section class="">
         <form action="">

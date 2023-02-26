@@ -1,3 +1,12 @@
+body {
+  overflow:scroll !important;
+}
+/* Hide the scrollbar */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+
 .background,.modal{
   /* background-color: #212529 !important; */
  background-color: #141316;
@@ -33,19 +42,9 @@ body{
 
   .simple{
     color: aliceblue !important;
-    padding-left: 20px;
     padding-top: 20px;
   }
 
-  .col-md-2{
-    padding-left: 100px !important;
-    padding-bottom: 50px !important;
-  }
-
-  .col-md-6{
-    padding-left: 5px !important;
-    padding-bottom: 50px !important;
-  }
 
 
   .imgHover:hover {
@@ -70,15 +69,7 @@ body{
 
 
 
-
-
-  /* .imgHover:hover {
-    opacity: 0.6 !important;
-    cursor: pointer;
-    animation:cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  } */
   .sANDb{
-    padding-left: 5px !important;
     padding-bottom: 50px !important;
   }
 
@@ -100,7 +91,8 @@ body{
 
   .image-text-container {
     position: relative;
-    margin-top: 150px;
+    margin-top: 30px;
+    margin-bottom: 150px;
     transition: transform .5s;
   }
   
@@ -123,7 +115,8 @@ body{
     bottom: -70;
     left: 50%;
     transform: translateX(-50%);
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: rgba(245, 245, 245, 0.94) !important;
     padding: 10px;
     margin-top: -10px;
     font-size: large;
@@ -132,13 +125,7 @@ body{
     z-index: 2;
   }
 
-  footer{
-    padding-top: 0px;
-  }
 
-  .index-footer{
-    margin-top: 150px !important;
-  }
   
   .card{
     transition: transform .5s;
@@ -146,6 +133,11 @@ body{
 
   .card:hover{
     transform: scale(1.1);
+  }
+
+  /* for alphabets in learn */
+  .mt-3{
+    padding-bottom: 50px;
   }
   
 
